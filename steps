@@ -1,0 +1,10 @@
+1-ng new projectName
+2-npm i bootstrap
+3-angular.json
+ ---->path style---> "node_modules/bootstrap/dist/css/bootstrap.min.css"
+---->path scripts--->"node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+4- create folder interfaces [userinterface,postsinterfas]
+5- create folder services---->ng g s services/name_service
+5- create folder layout--->header,Footer ---ng g c views/names_component
+5- create folder views --->names_components
+app.moduls----> import HttpClientModule
